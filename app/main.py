@@ -121,7 +121,7 @@ def get_radar_chart(input_data):
         visible=True,
         range=[0, 1]
       )),
-    showlegend=False
+    showlegend=True
   )
 
   return fig
